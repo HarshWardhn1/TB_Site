@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box {
+    width: 45vw;
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 50vh;
+    box-sizing: border-box;
+  }
+.btn{
+    margin-top: 10px;
+    margin-left: 10px;
+    /* border: solid rgba(25, 158, 255, 1);
+    width:200px;
+    border-radius: 40px ; */
+  }
+  .btn button{
+    border-radius: 40px;
+    width: 200px;
+    color: white;
+    background-color: black;
+    box-shadow: 0 4px rgba(25, 158, 255, 1);
+  
+  }
+
+
+  @media (max-width: 800px) {
+    .container {
+      flex-direction: column;
+    }
+   
+}
